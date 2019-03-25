@@ -1,26 +1,19 @@
-# Translation of Twenty Thirteen in Korean
-# This file is distributed under the same license as the Twenty Thirteen package.
+# Translation of Themes - Twenty Thirteen in Korean
+# This file is distributed under the same license as the Themes - Twenty Thirteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-06-28 13:44:46+0000\n"
+"PO-Revision-Date: 2015-07-18 10:52:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/1.0-alpha-1000\n"
-"Project-Id-Version: Twenty Thirteen\n"
-
-#. Author of the plugin/theme
-msgid "the WordPress team"
-msgstr "워드프레스 팀"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Themes - Twenty Thirteen\n"
 
 #. Description of the plugin/theme
 msgid "The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small."
 msgstr "워드프레스 2013 테마는 블로그 본래의 역할에 충실하도록 했습니다. 글 형식을 전체 지원하며 각각 고유의 형태로 아름답게 연출되는 것이 특징입니다. 세부 디자인이 풍부하며, 열정적인 색상 구조로 시작해서 헤더 이미지, 아름다운 타이포그래피, 아이콘과 조합을 이룹니다. 또한 크거나 작은 어떤 기기에도 아주 훌륭하게 표현되는 유연한 레이아웃을 갖고 있습니다."
-
-#. Theme URI of the plugin/theme
-msgid "http://wordpress.org/themes/twentythirteen"
-msgstr "http://wordpress.org/themes/twentythirteen"
 
 #. Theme Name of the plugin/theme
 msgid "Twenty Thirteen"
@@ -32,130 +25,130 @@ msgstr "%s 글 보관함"
 
 #: tag.php:21
 msgid "Tag Archives: %s"
-msgstr "태그 글목록: %s"
+msgstr "태그 보관물: %s"
 
 #: search.php:18
 msgid "Search Results for: %s"
 msgstr "검색 결과 : %s"
 
-#: inc/custom-header.php:59
+#: inc/custom-header.php:60
 msgctxt "header image description"
 msgid "Star"
 msgstr "별"
 
-#: inc/custom-header.php:54
+#: inc/custom-header.php:55
 msgctxt "header image description"
 msgid "Diamond"
 msgstr "마름모"
 
-#: inc/custom-header.php:49
+#: inc/custom-header.php:50
 msgctxt "header image description"
 msgid "Circle"
 msgstr "원"
 
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+#: inc/back-compat.php:37 inc/back-compat.php:48 inc/back-compat.php:62
 msgid "Twenty Thirteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
 msgstr "Twenty Thirteen은 최소한 워드프레스 3.6 버전을 사용해야합니다. 현재 버전 %s를 사용하고 있습니다. 업그레이드를 하고 다시 해주세요."
 
-#: image.php:52
+#: image.php:62
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr "다음 <span class=\"meta-nav\">&rarr;</span>"
 
-#: image.php:51
+#: image.php:61
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 msgstr "<span class=\"meta-nav\">&larr;</span> 이전"
 
-#: image.php:39
+#: image.php:49
 msgid "Full resolution"
 msgstr "최대 해상도"
 
-#: image.php:38
+#: image.php:48
 msgid "Link to full-size image"
-msgstr "전체 크기 이미지 링크"
+msgstr "전체크기 이미지 링크"
 
-#: image.php:22
+#: image.php:29
 msgid "<span class=\"attachment-meta\">Published on <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" rel=\"gallery\">%5$s</a></span>"
 msgstr "<span class=\"attachment-meta\"><a href=\"%3$s\" title=\"Return to %4$s\" rel=\"gallery\">%5$s</a>에서 <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time>에 발행됨</span>"
 
 #: header.php:44
 msgid "Skip to content"
-msgstr "내용으로 바로가기"
+msgstr "컨텐츠로 건너뛰기"
 
 #: header.php:43
 msgid "Menu"
 msgstr "메뉴"
 
-#: functions.php:369
+#: functions.php:433
 msgid "Permalink to %s"
-msgstr "%s 고유주소"
+msgstr "%s의 고유주소"
 
-#: functions.php:363
+#: functions.php:425
 msgctxt "1: post format name. 2: date"
 msgid "%1$s on %2$s"
 msgstr "%2$s %1$s"
 
-#: functions.php:343
+#: functions.php:405
 msgid "View all posts by %s"
-msgstr "%s의 모든 글 보기"
+msgstr "%s 의 모든 글 보기"
 
 #. Translators: used between list items, there is a space after the comma.
-#: functions.php:328 functions.php:334
+#: functions.php:389 functions.php:395
 msgid ", "
 msgstr ", "
 
-#: functions.php:322
+#: functions.php:381
 msgid "Sticky"
 msgstr "붙박이"
 
-#: functions.php:304
+#: functions.php:363
 msgctxt "Next post link"
 msgid "%title <span class=\"meta-nav\">&rarr;</span>"
 msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
 
-#: functions.php:303
+#: functions.php:362
 msgctxt "Previous post link"
 msgid "<span class=\"meta-nav\">&larr;</span> %title"
 msgstr "<span class=\"meta-nav\">&larr;</span> %title"
 
-#: functions.php:300
+#: functions.php:359
 msgid "Post navigation"
-msgstr "글 내비게이션"
+msgstr "글 네비게이션"
 
-#: functions.php:274
+#: functions.php:332
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "다음 글 <span class=\"meta-nav\">&rarr;</span>"
 
-#: functions.php:270
+#: functions.php:328
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> 이전 글"
+msgstr "<span class=\"meta-nav\">&larr;</span>이전 글"
 
-#: functions.php:266
+#: functions.php:324
 msgid "Posts navigation"
 msgstr "글 내비게이션"
 
-#: functions.php:243
+#: functions.php:299
 msgid "Appears on posts and pages in the sidebar."
 msgstr "글과 페이지의 사이드바에 나타납니다."
 
-#: functions.php:241
+#: functions.php:297
 msgid "Secondary Widget Area"
-msgstr "부 위젯 영역"
+msgstr "2차 위젯 영역"
 
-#: functions.php:233
+#: functions.php:287
 msgid "Appears in the footer section of the site."
 msgstr "사이트의 푸터 영역에 나타납니다."
 
-#: functions.php:231
+#: functions.php:285
 msgid "Main Widget Area"
 msgstr "주 위젯 영역"
 
-#: functions.php:218
+#: functions.php:270
 msgid "Page %s"
 msgstr "페이지 %s"
 
 #. Translators: If there are characters in your language that are not supported
 #. by Bitter, translate this to 'off'. Do not translate into your own language.
-#: functions.php:134
+#: functions.php:155
 msgctxt "Bitter font: on or off"
 msgid "on"
 msgstr "켜기"
@@ -163,32 +156,22 @@ msgstr "켜기"
 #. Translators: If there are characters in your language that are not supported
 #. by Source Sans Pro, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:128
+#: functions.php:149
 msgctxt "Source Sans Pro font: on or off"
 msgid "on"
 msgstr "off"
 
-#: functions.php:97
+#: functions.php:115
 msgid "Navigation Menu"
-msgstr "내비게이션 메뉴"
+msgstr "네비게이션 메뉴들"
 
-#: footer.php:19
+#: footer.php:25
 msgid "Proudly powered by %s"
 msgstr "Proudly powered by %s"
 
-#: footer.php:19
-msgid "Semantic Personal Publishing Platform"
-msgstr "의미있는 개인 발행 플랫폼"
-
-#. #-#-#-#-#  twentythirteen.pot (Twenty Thirteen 1.4)  #-#-#-#-#
-#. Author URI of the plugin/theme
-#: footer.php:19
-msgid "http://wordpress.org/"
-msgstr "http://wordpress.org/"
-
 #: content-none.php:27
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "찾으시는 것을 찾을 수 없는 것 같습니다. 검색이 도움이 될 수 있습니다."
+msgstr "찾고 있는 것을 찾을 수 없는 것 같습니다. 검색이 도움될 수도 있습니다."
 
 #: content-none.php:22
 msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
@@ -200,62 +183,62 @@ msgstr "첫번째 글을 발행할 준비가 됐나요? <a href=\"%1$s\">여기�
 
 #: content-none.php:12
 msgid "Nothing Found"
-msgstr "찾을 수 없습니다"
+msgstr "찾지 못함"
 
-#: content-gallery.php:43 content-image.php:39 content-quote.php:29
-#: content-video.php:39 content.php:56
+#: content-gallery.php:52 content-image.php:48 content-quote.php:38
+#: content-video.php:48 content.php:65
 msgid "View all % comments"
 msgstr "모든 % 댓글 보기"
 
-#: content-gallery.php:43 content-image.php:39 content-quote.php:29
-#: content-video.php:39 content.php:56
+#: content-gallery.php:52 content-image.php:48 content-quote.php:38
+#: content-video.php:48 content.php:65
 msgid "One comment so far"
 msgstr "현재까지 하나의 댓글"
 
-#: content-gallery.php:43 content-image.php:39 content-quote.php:29
-#: content-video.php:39 content.php:56
+#: content-gallery.php:52 content-image.php:48 content-quote.php:38
+#: content-video.php:48 content.php:65
 msgid "Leave a comment"
-msgstr "댓글을 달아주세요"
+msgstr "댓글 남기기"
 
-#: content-aside.php:27 content-aside.php:35 content-audio.php:38
-#: content-chat.php:36 content-gallery.php:46 content-image.php:42
-#: content-link.php:19 content-quote.php:32 content-status.php:26
-#: content-video.php:42 content.php:31 image.php:44 page.php:39
+#: content-aside.php:36 content-aside.php:44 content-audio.php:47
+#: content-chat.php:45 content-gallery.php:55 content-image.php:51
+#: content-link.php:19 content-quote.php:41 content-status.php:35
+#: content-video.php:51 content.php:31 image.php:54 page.php:51
 msgid "Edit"
 msgstr "편집"
 
-#: content-aside.php:20 content-audio.php:31 content-chat.php:30
-#: content-gallery.php:31 content-image.php:30 content-link.php:31
-#: content-quote.php:20 content-status.php:20 content-video.php:30
-#: content.php:48 image.php:70 page.php:35
+#: content-aside.php:24 content-audio.php:35 content-chat.php:34
+#: content-gallery.php:35 content-image.php:34 content-link.php:35
+#: content-quote.php:24 content-status.php:24 content-video.php:34
+#: content.php:52 image.php:83 page.php:41
 msgid "Pages:"
 msgstr "페이지:"
 
 #. translators: %s: Name of current post
-#: content-aside.php:16 content-audio.php:27 content-chat.php:26
-#: content-gallery.php:27 content-image.php:26 content-link.php:27
-#: content-quote.php:16 content-status.php:16 content-video.php:26
-#: content.php:44 functions.php:478
+#: content-aside.php:17 content-audio.php:28 content-chat.php:27
+#: content-gallery.php:28 content-image.php:27 content-link.php:28
+#: content-quote.php:17 content-status.php:17 content-video.php:27
+#: content.php:45 functions.php:547
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr "%s 더보기 <span class=\"meta-nav\">&rarr;</span>"
 
-#: comments.php:52
+#: comments.php:57
 msgid "Comments are closed."
-msgstr "댓글 종료됨"
+msgstr "댓글은 닫혔습니다."
 
-#: comments.php:47
+#: comments.php:52
 msgid "Newer Comments &rarr;"
 msgstr "새 댓글 &rarr;"
 
-#: comments.php:46
+#: comments.php:51
 msgid "&larr; Older Comments"
 msgstr "&larr; 이전 댓글"
 
-#: comments.php:45
+#: comments.php:50
 msgid "Comment navigation"
-msgstr "댓글 내비게이션"
+msgstr "댓글 네비게이션"
 
-#: comments.php:25
+#: comments.php:27
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
@@ -263,7 +246,7 @@ msgstr[0] "&ldquo;%2$s&rdquo;에 대한 %1$s개의 생각"
 
 #: category.php:19
 msgid "Category Archives: %s"
-msgstr "카테고리 글 목록: %s"
+msgstr "카테고리 보관물: %s"
 
 #: author.php:31
 msgid "All posts by %s"
@@ -271,35 +254,35 @@ msgstr "%s의 모든 글"
 
 #: author-bio.php:30
 msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr "%s의 글 모두 보기 <span class=\"meta-nav\">&rarr;</span>"
+msgstr "모든 글 보기 by %s <span class=\"meta-nav\">&rarr;</span>"
 
 #: author-bio.php:26
 msgid "About %s"
 msgstr "%s에 대하여"
 
-#: archive.php:35
+#: archive.php:36
 msgid "Archives"
 msgstr "글 보관함"
 
-#: archive.php:33
+#: archive.php:34
 msgctxt "yearly archives date format"
 msgid "Y"
-msgstr "Y년"
+msgstr "Y"
 
-#: archive.php:33
+#: archive.php:34
 msgid "Yearly Archives: %s"
 msgstr "년도별 글 목록: %s"
 
-#: archive.php:31
+#: archive.php:32
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "Y년 M월"
 
-#: archive.php:31
+#: archive.php:32
 msgid "Monthly Archives: %s"
 msgstr "월별 글 목록: %s"
 
-#: archive.php:29
+#: archive.php:30
 msgid "Daily Archives: %s"
 msgstr "날짜별 글 목록: %s"
 
@@ -309,8 +292,22 @@ msgstr "위 위치에서 찾을 수 있는 것이 없는 것 같습니다. 검�
 
 #: 404.php:21
 msgid "This is somewhat embarrassing, isn&rsquo;t it?"
-msgstr "좀 당황스럽네요. 안그런가요?"
+msgstr "이건 다소 당황스럽네요, 그렇지 않나요?"
 
 #: 404.php:16
 msgid "Not Found"
-msgstr "찾을 수 없습니다."
+msgstr "찾을 수 없음"
+
+#. #-#-#-#-#  twentythirteen.pot (Twenty Thirteen 2.4)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:24
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "워드프레스 팀"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentythirteen/"
+msgstr "https://wordpress.org/themes/twentythirteen/"
